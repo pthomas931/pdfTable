@@ -1,0 +1,17 @@
+{
+  "name": "pdftable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-dev ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "pdf2json": "^1.1.7",
+    "pdfjs": "^2.0.0-alpha.4",
+    "pdfjs-dist": "^2.0.449"
+  }
+}
