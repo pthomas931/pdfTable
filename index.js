@@ -3,7 +3,7 @@ let excludeArray = ['No messages found in current search.'];
 let PDFJS = require('pdfjs-dist');
 PDFJS.getDocument('test.pdf').then(function(pdf) {
   pdf.getPage(2).then(function(page) {
-    page.getTextContent({disableCombineTextItems: true}).then(function(txt) {
+    page.getTextContent().then(function(txt) {
       let chunks = [];
       let chunk = [];
       let prevSpot = 0;
